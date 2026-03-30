@@ -9,6 +9,7 @@ void loop() {
  int buttonState = digitalRead(A2);
 
   if (buttonState == HIGH) {
+    //Not repeating the code uses the void loop and makes the LED blink as long as the circuit is connected.
     digitalWrite(13, HIGH);
     delay(200);             
     digitalWrite(13, LOW);
