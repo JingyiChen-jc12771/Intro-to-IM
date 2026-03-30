@@ -10,17 +10,9 @@ void loop() {
 
   if (buttonState == HIGH) {
     digitalWrite(13, HIGH);
-    delay(200);             // Wait a fraction of a second
+    delay(200);             
     digitalWrite(13, LOW);
-    delay(200);
-    digitalWrite(13, HIGH);
-    delay(200);             // Wait a fraction of a second
-    digitalWrite(13, LOW);
-    delay(200);
-    digitalWrite(13, HIGH);
-    delay(200);             // Wait a fraction of a second
-    digitalWrite(13, LOW);
-    delay(200);    
+    delay(200); 
   } else  {
     digitalWrite(13, LOW);    
   }
