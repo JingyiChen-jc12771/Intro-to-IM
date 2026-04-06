@@ -26,7 +26,7 @@ if (buttonState==LOW){
 }else{
   //Turn off red LED
   digitalWrite(digitalLed,LOW);
-  //Fade yellow LED
+  //control yellow LED brightness
   analogWrite(analogLed, sensorValue/4);
   delay(30);
 }
